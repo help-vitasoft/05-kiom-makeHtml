@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle kiom-preview",
+        "command": "kiom-preview:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "kiom-preview",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "kiom-preview:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
