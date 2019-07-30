@@ -1,5 +1,5 @@
 {
-  "name": "kiom-preview",
+  "name": "06-kiom-preview",
   "main": "./lib/kiom-preview",
   "version": "0.0.1",
   "description": "A short description of your package",
