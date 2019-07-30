@@ -1,5 +1,5 @@
 {
   "atom-workspace": {
-    "ctrl-alt-o": "kiom-preview:toggle"
+    "ctrl-alt-v": "kiom-preview:toggle"
   }
 }
