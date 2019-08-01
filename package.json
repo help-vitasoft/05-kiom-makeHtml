@@ -1,7 +1,7 @@
 {
   "name": "05-kiom-preview",
   "main": "./lib/kiom-preview",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A short description of your package",
   "keywords": [],
   "activationCommands": {
