@@ -1,0 +1,68 @@
+/**
+ * jquery-bootstrap-scrolling-tabs
+ * @version v1.1.0
+ * @link https://github.com/mikejacobson/jquery-bootstrap-scrolling-tabs
+ * @author Mike Jacobson <michaeljjacobson1@gmail.com>
+ * @license MIT License, http://www.opensource.org/licenses/MIT
+ */
+
+
+.scrtabs-tab-container * {
+  box-sizing: border-box; border: none }
+
+.scrtabs-tab-container {
+  height: 42px;}
+  .scrtabs-tab-container .tab-content {
+    clear: left; }
+
+.scrtabs-tabs-fixed-container {
+  float: left;
+ /* height: 42px;*/
+  overflow: hidden;
+  width: 100%;}
+
+.scrtabs-allow-scrollbar .scrtabs-tabs-fixed-container {
+  overflow-x: auto; }
+  .scrtabs-allow-scrollbar .scrtabs-tabs-fixed-container::-webkit-scrollbar {
+    display: none; }
+
+.scrtabs-tabs-movable-container {
+  position: relative; }
+  .scrtabs-tabs-movable-container .tab-content {
+    display: none;}
+
+
+.tab-content>.tab-pane {
+    margin-top: 10px;
+}
+
+.scrtabs-tab-scroll-arrow {
+  border: 1px solid #adadad;
+  color: #ccc;
+  cursor: pointer;
+  display: none;
+  float: left;
+  font-size: 12px;
+  height: 42px;
+  margin-bottom: -1px;
+  padding-left: 2px;
+  padding-top: 13px;
+  width: 20px; }
+  .scrtabs-tab-scroll-arrow:hover {
+    background-color: #eeeeee; }
+
+
+.scrtabs-tab-scroll-arrow.scrtabs-disable {
+  color: #ddd;
+  cursor: default; }
+
+.scrtabs-tabs-fixed-container ul.nav-tabs > li {
+  white-space: nowrap; }
+
+
+.nav-tabs > ul{ display:table-row; }
+.nav-tabs > li{ margin:0}
+.nav-tabs > li > a{ display:inline-block; display:table-cell; font-size:14px; text-align:center; border-left:none;  vertical-align: middle; background:#e2e4e5 !important;border-radius: 0 !important; border-top:1px solid #d1d1d1 !important; border-right:1px solid #d1d1d1 !important;border-bottom:1px solid #adadad !important; color:#777}
+.nav-tabs > li:first-child{ border-left:1px solid #d1d1d1 !important;}
+.nav-tabs > li.active a, .nav-tabs > li.active a:hover{ background: none !important; border-radius: none !important;border-top:1px solid #adadad !important; border-right:1px solid #adadad !important;border-left:1px solid #adadad !important; border-bottom: none !important; color:#000; font-weight: 600}
+

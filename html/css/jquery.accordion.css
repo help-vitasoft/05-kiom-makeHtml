@@ -1,0 +1,108 @@
+/* Requirements */
+
+.snb-box button {
+    margin: 0;
+    padding: 0;
+    background: inherit;
+    border: inherit;
+    font: inherit;
+    outline: none;
+    width: 100%;
+    display: block;
+    text-align: left;
+    color: inherit;
+}
+
+.snippet {
+  max-width: 768px;
+  padding: 0 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+[data-accordion] [data-content] {
+    background: #fff
+}
+
+[data-accordion] [data-content] [data-content] {
+    background: #f8f9fb
+}
+
+[data-accordion] [data-content] [data-content] [data-content] {
+    background: #eee
+}
+
+
+
+/******** Basic ********/
+[data-accordion] [data-content] {
+    overflow: hidden;
+    max-height: 0;
+}
+
+/* Basic Theme */
+
+[data-accordion] {
+    line-height: 1;
+}
+/*
+[data-control],
+[data-content] > * {
+    border-bottom: 1px solid #e9e9e9;
+    padding: 10px;
+}*/
+/*********수정 시작*********/
+.snb-box button{padding:15px 10px; border:1px solid #e9e9e9; border-bottom:1px solid #858585; background: #f8f9fb;}
+[data-content] article {
+    border: 1px solid #e9e9e9 ;
+	border-top:none;
+}
+[data-content] article a{
+    width:100%;
+	display: block;
+	padding:16px 10px;/*
+	background: url('../images/right.png') center  no-repeat;*/
+    background-size: 7px;
+}
+
+
+[data-content] article a:after {
+    background: url('../images/right.png') center right no-repeat;
+    background-size: 50%;
+}
+/*********수정 끝*********/
+
+
+
+[data-content] [data-accordion] {
+    border: 0;
+    padding: 0;
+}
+
+[data-accordion] [data-control] {
+    position: relative;
+    padding-right: 40px;
+}
+
+[data-accordion] > [data-control]:after {
+	content: "";
+	position: absolute;
+	right: 5px;
+	top: 17px;
+	font-size: 25px;
+	font-weight: 200;
+	color: #444;
+	height: 15px;
+	width: 24px;
+	background: url('../images/down.png') center center no-repeat;
+	background-size: 50%;
+}
+
+[data-accordion].open > [data-control]:after {
+	-webkit-transform: rotate(-180deg); 
+	-ms-transform: rotate(-180deg); 
+	transform: rotate(-180deg); 
+}
+	
+	

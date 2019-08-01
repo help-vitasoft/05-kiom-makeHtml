@@ -1,0 +1,4 @@
+@charset "utf-8";
+@media screen and (max-width: 1173px){
+	.inner-fixed{ width:100%}
+}

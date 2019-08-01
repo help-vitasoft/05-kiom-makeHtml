@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+/*body{overflow-x: hidden;}*/
+
+* {
+  -webkit-box-sizing:border-box;
+   -moz-box-sizing:border-box;
+   box-sizing:border-box; 
+}
+html, body{ background: #e6e8ec  }
+.bg-white{ background:#fff !important}
+#wrap { width: 100%; }
+#skip-navigation{/*display: none;*/}
+#skip-navigation {position:absolute; left:0; top:-1000px; width:100%; height: 0px; z-index:9999999; line-height:0px; font-size:0px;}
+#skip-navigation a{display:block; text-align:center; width: 100%; line-height:0px; font-size:0px;}
+#skip-navigation a:focus, #skipnavigation a:hover, #skipnavigation a:active {position:absolute; left:0px; top:1000px; padding: 8px 0;  display:block; height:38px; background:#e12f29; font-size:12px; font-weight:bold; line-height:18px; color:#fff;}
+
+.title1{ font-size:40px}
