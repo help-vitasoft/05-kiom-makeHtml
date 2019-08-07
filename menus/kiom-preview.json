@@ -12,10 +12,10 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "kiom-preview",
+          "label": "vitasoft-kiom",
           "submenu": [
             {
-              "label": "Toggle",
+              "label": "kiom-preview",
               "command": "kiom-preview:toggle"
             }
           ]
