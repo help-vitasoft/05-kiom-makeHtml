@@ -1,5 +1,5 @@
 {
-  "name": "05-kiom-preview",
+  "name": "05-kiom-makeHtml",
   "main": "./lib/kiom-preview",
   "version": "0.0.10",
   "description": "A short description of your package",
