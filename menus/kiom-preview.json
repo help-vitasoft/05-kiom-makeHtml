@@ -15,7 +15,7 @@
           "label": "kiom",
           "submenu": [
             {
-              "label": "kiom-makeHtml",
+              "label": "05-kiom-makeHtml",
               "command": "kiom-preview:toggle"
             }
           ]
